@@ -1,4 +1,4 @@
-# 🌦️ Meghadrsit
+# 🌦️ MeghaDrsti
 
 ### Conversational AI for Weather Forecasting, Alerts & Climate Intelligence
 
@@ -13,9 +13,9 @@
 
 ---
 
-## 🌐 About Meghadrsit
+## 🌐 About MeghaDrsti
 
-**Meghadrsit** is an AI-powered conversational weather intelligence platform designed to make complex meteorological information **simple, accessible, and actionable**.
+**MeghaDrsti** is an AI-powered conversational weather intelligence platform designed to make complex meteorological information **simple, accessible, and actionable**.
 
 Instead of navigating multiple weather portals, forecast charts, technical datasets, and warning bulletins, users can simply ask questions in natural language and receive contextual weather insights.
 
@@ -23,17 +23,17 @@ Instead of navigating multiple weather portals, forecast charts, technical datas
 
 > **User:** Will it rain tomorrow evening in Dhanbad?
 
-> **Meghadrsit:** 🌧️ Rain is likely tomorrow evening. There is a high probability of precipitation, so carrying an umbrella is recommended.
+> **MeghaDrsti:** 🌧️ Rain is likely tomorrow evening. There is a high probability of precipitation, so carrying an umbrella is recommended.
 
 ---
 
-## 🎯 Problem
+## 🎯 Problem Statement
 
 Weather information is often distributed across multiple platforms, APIs, bulletins, satellite products, and forecasting systems.
 
 For many users, especially farmers and communities in rural areas, interpreting this information can be difficult.
 
-### Meghadrsit aims to provide:
+### MeghaDrsti aims to provide:
 
 * 🌡️ Real-time weather information
 * 🤖 Conversational AI-based weather queries
@@ -64,7 +64,7 @@ Access important weather parameters such as:
 
 ### 🤖 Conversational AI
 
-Users can ask weather-related questions naturally.
+Users can ask weather-related questions naturally:
 
 ```text
 "Will it rain tomorrow?"
@@ -76,7 +76,7 @@ Users can ask weather-related questions naturally.
 "Is there any severe weather near me?"
 ```
 
-The AI interprets the user's intent and retrieves the required weather information.
+MeghaDrsti interprets the user's intent and retrieves the required weather information to generate a contextual response.
 
 ### 📍 Location Intelligence
 
@@ -88,9 +88,9 @@ Weather information can be generated using:
 * GPS coordinates
 * User-selected locations
 
-### 🚨 Weather Alerts
+### 🚨 Extreme Weather Alerts
 
-Meghadrsit can communicate important weather warnings including:
+MeghaDrsti can communicate important warnings including:
 
 * Heavy rainfall
 * Thunderstorms
@@ -112,11 +112,17 @@ Weather information can be converted into useful agricultural recommendations re
 
 ### 🌐 Multilingual Support
 
-Designed to support multiple Indian languages, making weather intelligence accessible to a wider population.
+MeghaDrsti is designed to support multiple Indian languages, making weather intelligence accessible to a wider population.
 
 ### 🎙️ Voice Interaction
 
-Voice-based queries can make the platform easier to use for rural communities, elderly users, and users with limited literacy.
+Voice-based queries can improve accessibility for:
+
+* Rural communities
+* Farmers
+* Elderly users
+* Users with limited literacy
+* Hands-free situations
 
 ---
 
@@ -132,12 +138,12 @@ Voice-based queries can make the platform easier to use for rural communities, e
                                   ▼
                     ┌────────────────────────┐
                     │    React Frontend      │
-                    │   Web / Mobile UI      │
+                    │     Web / Mobile UI    │
                     └───────────┬────────────┘
                                 │
                                 ▼
                     ┌────────────────────────┐
-                    │    Node.js + Express    │
+                    │    Node.js + Express   │
                     │       Backend API       │
                     └───────────┬────────────┘
                                 │
@@ -158,7 +164,7 @@ Voice-based queries can make the platform easier to use for rural communities, e
                        │
                        ▼
               ┌──────────────────┐
-              │ Meghadrsit AI    │
+              │ MeghaDrsti AI    │
               │ Response Engine  │
               └────────┬─────────┘
                        │
@@ -195,7 +201,7 @@ Voice-based queries can make the platform easier to use for rural communities, e
 
 ---
 
-# 🔄 How Meghadrsit Works
+# 🔄 How MeghaDrsti Works
 
 ```text
 User Query
@@ -254,27 +260,27 @@ Carry an umbrella if you are going outside.
 
 # 📸 Screenshots
 
-> Screenshots will be added as the application UI is completed.
+> Add application screenshots to the `screenshots/` directory.
 
 ### 🏠 Dashboard
 
-![Meghadrsit Dashboard](./screenshots/dashboard.png)
+![MeghaDrsti Dashboard](./screenshots/dashboard.png)
 
 ### 🤖 AI Weather Assistant
 
-![Meghadrsit AI Assistant](./screenshots/chat.png)
+![MeghaDrsti AI Assistant](./screenshots/chat.png)
 
 ### 🌦️ Weather Forecast
 
-![Meghadrsit Forecast](./screenshots/forecast.png)
+![MeghaDrsti Forecast](./screenshots/forecast.png)
 
 ### 🚨 Weather Alerts
 
-![Meghadrsit Alerts](./screenshots/alerts.png)
+![MeghaDrsti Alerts](./screenshots/alerts.png)
 
 ### 📱 Mobile Interface
 
-![Meghadrsit Mobile](./screenshots/mobile.png)
+![MeghaDrsti Mobile](./screenshots/mobile.png)
 
 ---
 
@@ -383,9 +389,9 @@ GET /api/alerts?location=Dhanbad
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Meghadrsit.git
+git clone https://github.com/YOUR_USERNAME/MeghaDrsti.git
 
-cd Meghadrsit
+cd MeghaDrsti
 ```
 
 ## 2. Install Frontend
@@ -402,7 +408,7 @@ cd ../backend
 npm install
 ```
 
-## 4. Environment Variables
+## 4. Configure Environment Variables
 
 Create a `.env` file:
 
@@ -433,7 +439,7 @@ npm run dev
 # 📁 Project Structure
 
 ```text
-Meghadrsit/
+MeghaDrsti/
 │
 ├── frontend/
 │   ├── src/
@@ -485,38 +491,36 @@ Meghadrsit/
 
 # 🏆 Innovation
 
-Meghadrsit is not just a conventional weather application.
-
-It introduces a **conversational AI layer over meteorological data**, allowing users to interact with complex weather information using natural language.
+MeghaDrsti goes beyond conventional weather applications by introducing a **conversational AI layer over meteorological information**.
 
 ```text
-Weather Data
-     +
+Meteorological Data
+        +
 Forecast Models
-     +
+        +
 Real-Time APIs
-     +
+        +
 AI / LLM
-     +
+        +
 Location Intelligence
-     ↓
+        ↓
  ┌─────────────────────┐
- │     MEGHADRSIT      │
- │ Conversational AI   │
+ │     MEGHADRSTI       │
+ │  Conversational AI   │
  └──────────┬──────────┘
             ↓
-   Actionable Insights
+    Actionable Insights
 ```
 
-### Core Value
+### Core Value Proposition
 
-**Complex Weather Data → Simple Conversation → Actionable Decision**
+**Complex Weather Data → Natural Conversation → Actionable Decision**
 
 ---
 
 # 📊 Evaluation Focus
 
-| Parameter     | Meghadrsit Focus                    |
+| Parameter     | MeghaDrsti Focus                    |
 | ------------- | ----------------------------------- |
 | Accuracy      | Reliable weather data & responses   |
 | Relevance     | Context-aware AI answers            |
@@ -528,9 +532,7 @@ Location Intelligence
 
 ---
 
-# 👥 Team
-
-## Team Meghadrsit
+# 👥 Team MeghaDrsti
 
 | Member        | Role                             |
 | ------------- | -------------------------------- |
@@ -562,14 +564,18 @@ Create a Pull Request after pushing your changes.
 
 # ⚠️ Disclaimer
 
-Meghadrsit is designed for **weather information and decision support**.
+MeghaDrsti is designed for **weather information and decision support**.
 
 For critical situations such as cyclones, floods, extreme rainfall, and other disasters, users should always verify information through official meteorological and government authorities.
 
 ---
 
-# 🌦️ Meghadrsit
+<div align="center">
+
+## 🌦️ MeghaDrsti
 
 ### **Understand the Sky. Make Better Decisions.**
 
-⭐ If you find Meghadrsit useful, consider starring the repository.
+⭐ **Star this repository if you find the project interesting.**
+
+</div>
