@@ -97,7 +97,7 @@ MeghaDrsti can communicate important warnings including:
 * Cyclones
 * Strong winds
 * Extreme heat
-* Flood risks
+
 
 ### 🌾 Agricultural Advisory
 
